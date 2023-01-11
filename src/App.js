@@ -5,7 +5,8 @@ import { useState } from "react";
 const movieDB = {
   Romantic: [
     { name: " Sita Ramam", rating: "8.6/10" },
-    { name: "Dilwale Dulhaniya Le Jayenge", rating: "8.0/10" }
+    { name: "Dilwale Dulhaniya Le Jayenge", rating: "8.0/10" },
+    { name: "Hum Tum", rating: "7.0/10" }
   ],
 
   Drama: [
@@ -16,6 +17,10 @@ const movieDB = {
     {
       name: "Harry Potter and the Sorcerer's Stone",
       rating: "7.6/10"
+    },
+    {
+      name: "Rand De Basanti",
+      rating: "8.1/10"
     }
   ],
   Action: [
@@ -26,9 +31,12 @@ const movieDB = {
     {
       name: "Baahubali: The Beginning",
       rating: "8.0/10"
+    },
+    {
+      name: "2: The Conclusion",
+      rating: "8.2/10"
     }
-  ]
-};
+  ];
 
 export default function App() {
   const [selectedGenre, setGenre] = useState("Action");
