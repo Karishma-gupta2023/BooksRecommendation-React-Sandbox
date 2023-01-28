@@ -2,3 +2,19 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+* {
+  margin: 0px;
+  padding: 1rem;
+}
+
+body {
+  background-color: #4c1d95;
+  color: white;
+}
+
+li {
+  background-color: white;
+  color: #4c1d95;
+  font-weight: bolder;
+}
